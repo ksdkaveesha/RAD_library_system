@@ -1,0 +1,16 @@
+F:\github\RAD_library_system\Library_System\Library_System\bin\Debug\net8.0-windows\Library_System.exe
+F:\github\RAD_library_system\Library_System\Library_System\bin\Debug\net8.0-windows\Library_System.deps.json
+F:\github\RAD_library_system\Library_System\Library_System\bin\Debug\net8.0-windows\Library_System.runtimeconfig.json
+F:\github\RAD_library_system\Library_System\Library_System\bin\Debug\net8.0-windows\Library_System.dll
+F:\github\RAD_library_system\Library_System\Library_System\bin\Debug\net8.0-windows\Library_System.pdb
+F:\github\RAD_library_system\Library_System\Library_System\obj\Debug\net8.0-windows\Library_System.Form1.resources
+F:\github\RAD_library_system\Library_System\Library_System\obj\Debug\net8.0-windows\Library_System.csproj.GenerateResource.cache
+F:\github\RAD_library_system\Library_System\Library_System\obj\Debug\net8.0-windows\Library_System.GeneratedMSBuildEditorConfig.editorconfig
+F:\github\RAD_library_system\Library_System\Library_System\obj\Debug\net8.0-windows\Library_System.AssemblyInfoInputs.cache
+F:\github\RAD_library_system\Library_System\Library_System\obj\Debug\net8.0-windows\Library_System.AssemblyInfo.cs
+F:\github\RAD_library_system\Library_System\Library_System\obj\Debug\net8.0-windows\Library_System.csproj.CoreCompileInputs.cache
+F:\github\RAD_library_system\Library_System\Library_System\obj\Debug\net8.0-windows\Library_System.dll
+F:\github\RAD_library_system\Library_System\Library_System\obj\Debug\net8.0-windows\refint\Library_System.dll
+F:\github\RAD_library_system\Library_System\Library_System\obj\Debug\net8.0-windows\Library_System.pdb
+F:\github\RAD_library_system\Library_System\Library_System\obj\Debug\net8.0-windows\Library_System.genruntimeconfig.cache
+F:\github\RAD_library_system\Library_System\Library_System\obj\Debug\net8.0-windows\ref\Library_System.dll
