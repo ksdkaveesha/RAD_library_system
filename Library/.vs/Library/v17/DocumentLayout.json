@@ -3,20 +3,32 @@
   "WorkspaceRootPath": "F:\\github\\RAD_library_system\\Library\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|f:\\github\\rad_library_system\\library\\library\\add_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|solutionrelative:library\\add_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|f:\\github\\rad_library_system\\library\\library\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|solutionrelative:library\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|f:\\github\\rad_library_system\\library\\library\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|solutionrelative:library\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|f:\\github\\rad_library_system\\library\\library\\view_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|solutionrelative:library\\view_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|f:\\github\\rad_library_system\\library\\library\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|solutionrelative:library\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|f:\\github\\rad_library_system\\library\\library\\return_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|solutionrelative:library\\return_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|f:\\github\\rad_library_system\\library\\library\\issue_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|solutionrelative:library\\issue_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|f:\\github\\rad_library_system\\library\\library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|solutionrelative:library\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|F:\\github\\RAD_library_system\\Library\\library\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|solutionrelative:library\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,37 +38,73 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "dashboard.cs",
-              "DocumentMoniker": "F:\\github\\RAD_library_system\\Library\\Library\\dashboard.cs",
-              "RelativeDocumentMoniker": "Library\\dashboard.cs",
-              "ToolTip": "F:\\github\\RAD_library_system\\Library\\Library\\dashboard.cs",
-              "RelativeToolTip": "Library\\dashboard.cs",
-              "ViewState": "AgIAAAUAAAAAAAAAAAAWwBUAAAAUAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T15:01:40.409Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "F:\\github\\RAD_library_system\\Library\\Library\\Program.cs",
               "RelativeDocumentMoniker": "Library\\Program.cs",
               "ToolTip": "F:\\github\\RAD_library_system\\Library\\Library\\Program.cs",
               "RelativeToolTip": "Library\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T14:54:57.62Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "view_book.cs [Design]",
+              "DocumentMoniker": "F:\\github\\RAD_library_system\\Library\\Library\\view_book.cs",
+              "RelativeDocumentMoniker": "Library\\view_book.cs",
+              "ToolTip": "F:\\github\\RAD_library_system\\Library\\Library\\view_book.cs [Design]",
+              "RelativeToolTip": "Library\\view_book.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T18:35:56.684Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "return_book.cs [Design]",
+              "DocumentMoniker": "F:\\github\\RAD_library_system\\Library\\Library\\return_book.cs",
+              "RelativeDocumentMoniker": "Library\\return_book.cs",
+              "ToolTip": "F:\\github\\RAD_library_system\\Library\\Library\\return_book.cs [Design]",
+              "RelativeToolTip": "Library\\return_book.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T18:35:32.531Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "issue_book.cs [Design]",
+              "DocumentMoniker": "F:\\github\\RAD_library_system\\Library\\Library\\issue_book.cs",
+              "RelativeDocumentMoniker": "Library\\issue_book.cs",
+              "ToolTip": "F:\\github\\RAD_library_system\\Library\\Library\\issue_book.cs [Design]",
+              "RelativeToolTip": "Library\\issue_book.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T18:35:17.127Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "add_book.cs [Design]",
+              "DocumentMoniker": "F:\\github\\RAD_library_system\\Library\\Library\\add_book.cs",
+              "RelativeDocumentMoniker": "Library\\add_book.cs",
+              "ToolTip": "F:\\github\\RAD_library_system\\Library\\Library\\add_book.cs [Design]",
+              "RelativeToolTip": "Library\\add_book.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T18:28:18.13Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "dashboard.cs [Design]",
               "DocumentMoniker": "F:\\github\\RAD_library_system\\Library\\Library\\dashboard.cs",
               "RelativeDocumentMoniker": "Library\\dashboard.cs",
@@ -68,15 +116,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "F:\\github\\RAD_library_system\\Library\\Library\\Form1.cs",
               "RelativeDocumentMoniker": "Library\\Form1.cs",
               "ToolTip": "F:\\github\\RAD_library_system\\Library\\Library\\Form1.cs [Design]",
               "RelativeToolTip": "Library\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T13:13:54.353Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-09-04T13:13:54.353Z"
             }
           ]
         }
