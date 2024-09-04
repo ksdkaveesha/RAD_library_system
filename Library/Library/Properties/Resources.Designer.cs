@@ -73,6 +73,46 @@ namespace Library.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap ancient_books_adorn_library_carefully_arranged_with_classics_rare_gems {
+            get {
+                object obj = ResourceManager.GetObject("ancient-books-adorn-library-carefully-arranged-with-classics-rare-gems", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Animation___1725460452380 {
+            get {
+                object obj = ResourceManager.GetObject("Animation - 1725460452380", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap book_1773069 {
+            get {
+                object obj = ResourceManager.GetObject("book_1773069", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap book_2599258 {
+            get {
+                object obj = ResourceManager.GetObject("book_2599258", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap books_with_graduation_cap_digital_art_style_education_day {
             get {
                 object obj = ResourceManager.GetObject("books-with-graduation-cap-digital-art-style-education-day", resourceCulture);
@@ -83,9 +123,49 @@ namespace Library.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap cross_14875490 {
+            get {
+                object obj = ResourceManager.GetObject("cross_14875490", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap ebook_8661034 {
+            get {
+                object obj = ResourceManager.GetObject("ebook_8661034", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap emergency_exit_4009127 {
+            get {
+                object obj = ResourceManager.GetObject("emergency-exit_4009127", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap international_day_education_cartoon_style {
             get {
                 object obj = ResourceManager.GetObject("international-day-education-cartoon-style", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap recycle_9250855 {
+            get {
+                object obj = ResourceManager.GetObject("recycle_9250855", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

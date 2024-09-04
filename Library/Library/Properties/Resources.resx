@@ -118,13 +118,37 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="3d-cartoon-scene-depicting-variety-people-multitasking" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\3d-cartoon-scene-depicting-variety-people-multitasking.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="international-day-education-cartoon-style" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\international-day-education-cartoon-style.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="book_1773069" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book_1773069.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="cross_14875490" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\cross_14875490.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Animation - 1725460452380" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Animation - 1725460452380.gif;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ancient-books-adorn-library-carefully-arranged-with-classics-rare-gems" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ancient-books-adorn-library-carefully-arranged-with-classics-rare-gems.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="books-with-graduation-cap-digital-art-style-education-day" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\books-with-graduation-cap-digital-art-style-education-day.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="recycle_9250855" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\recycle_9250855.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="3d-cartoon-scene-depicting-variety-people-multitasking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\3d-cartoon-scene-depicting-variety-people-multitasking.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ebook_8661034" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ebook_8661034.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="book_2599258" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\book_2599258.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="emergency-exit_4009127" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\emergency-exit_4009127.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

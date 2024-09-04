@@ -16,3 +16,4 @@ F:\github\RAD_library_system\Library\Library\obj\Debug\net8.0-windows\refint\Lib
 F:\github\RAD_library_system\Library\Library\obj\Debug\net8.0-windows\Library.pdb
 F:\github\RAD_library_system\Library\Library\obj\Debug\net8.0-windows\Library.genruntimeconfig.cache
 F:\github\RAD_library_system\Library\Library\obj\Debug\net8.0-windows\ref\Library.dll
+F:\github\RAD_library_system\Library\Library\obj\Debug\net8.0-windows\Library.dashboard.resources

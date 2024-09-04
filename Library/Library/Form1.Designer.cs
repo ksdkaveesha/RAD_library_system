@@ -40,6 +40,10 @@
             button1 = new Button();
             label4 = new Label();
             linkLabel1 = new LinkLabel();
+            pictureBox1 = new PictureBox();
+            pictureBox2 = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             SuspendLayout();
             // 
             // panel1
@@ -64,7 +68,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Script MT Bold", 30F, FontStyle.Bold);
-            label1.Location = new Point(526, 48);
+            label1.Location = new Point(526, 40);
             label1.Name = "label1";
             label1.Size = new Size(223, 48);
             label1.TabIndex = 2;
@@ -162,12 +166,35 @@
             linkLabel1.TabStop = true;
             linkLabel1.Text = "Sign Up for Free";
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.Animation___1725460452380;
+            pictureBox1.Location = new Point(564, 54);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(144, 71);
+            pictureBox1.TabIndex = 12;
+            pictureBox1.TabStop = false;
+            // 
+            // pictureBox2
+            // 
+            pictureBox2.BackgroundImageLayout = ImageLayout.Center;
+            pictureBox2.Cursor = Cursors.Hand;
+            pictureBox2.Image = Properties.Resources.cross_14875490;
+            pictureBox2.Location = new Point(750, 12);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Size = new Size(38, 41);
+            pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox2.TabIndex = 13;
+            pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = SystemColors.Control;
             ClientSize = new Size(800, 450);
+            Controls.Add(pictureBox2);
             Controls.Add(linkLabel1);
             Controls.Add(label4);
             Controls.Add(button1);
@@ -180,11 +207,15 @@
             Controls.Add(label1);
             Controls.Add(panel2);
             Controls.Add(panel1);
-            FormBorderStyle = FormBorderStyle.FixedSingle;
+            Controls.Add(pictureBox1);
+            FormBorderStyle = FormBorderStyle.None;
             MaximizeBox = false;
             MinimizeBox = false;
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Book Haven Library";
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -203,5 +234,7 @@
         private Button button1;
         private Label label4;
         private LinkLabel linkLabel1;
+        private PictureBox pictureBox1;
+        private PictureBox pictureBox2;
     }
 }
