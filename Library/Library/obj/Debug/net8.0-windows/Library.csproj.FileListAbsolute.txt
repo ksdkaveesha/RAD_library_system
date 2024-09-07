@@ -18,3 +18,14 @@ F:\github\RAD_library_system\Library\Library\obj\Debug\net8.0-windows\Library.ge
 F:\github\RAD_library_system\Library\Library\obj\Debug\net8.0-windows\ref\Library.dll
 F:\github\RAD_library_system\Library\Library\obj\Debug\net8.0-windows\Library.dashboard.resources
 F:\github\RAD_library_system\Library\Library\obj\Debug\net8.0-windows\Library.add_book.resources
+F:\github\RAD_library_system\Library\Library\obj\Debug\net8.0-windows\Library.issue_book.resources
+F:\github\RAD_library_system\Library\Library\obj\Debug\net8.0-windows\Library.return_book.resources
+F:\github\RAD_library_system\Library\Library\obj\Debug\net8.0-windows\Library.view_book.resources
+F:\github\RAD_library_system\Library\Library\bin\Debug\net8.0-windows\System.Data.SqlClient.dll
+F:\github\RAD_library_system\Library\Library\bin\Debug\net8.0-windows\runtimes\win-arm64\native\sni.dll
+F:\github\RAD_library_system\Library\Library\bin\Debug\net8.0-windows\runtimes\win-x64\native\sni.dll
+F:\github\RAD_library_system\Library\Library\bin\Debug\net8.0-windows\runtimes\win-x86\native\sni.dll
+F:\github\RAD_library_system\Library\Library\bin\Debug\net8.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\github\RAD_library_system\Library\Library\bin\Debug\net8.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+F:\github\RAD_library_system\Library\Library\obj\Debug\net8.0-windows\Library.csproj.AssemblyReference.cache
+F:\github\RAD_library_system\Library\Library\obj\Debug\net8.0-windows\Library.csproj.Up2Date

@@ -31,13 +31,13 @@
             panel1 = new Panel();
             panel2 = new Panel();
             label1 = new Label();
-            textBox1 = new TextBox();
+            username = new TextBox();
             label2 = new Label();
             label3 = new Label();
-            textBox2 = new TextBox();
+            password = new TextBox();
             panel3 = new Panel();
             panel4 = new Panel();
-            button1 = new Button();
+            btnlogin = new Button();
             label4 = new Label();
             linkLabel1 = new LinkLabel();
             pictureBox1 = new PictureBox();
@@ -74,17 +74,17 @@
             label1.TabIndex = 2;
             label1.Text = "Book Haven";
             // 
-            // textBox1
+            // username
             // 
-            textBox1.BackColor = SystemColors.Control;
-            textBox1.BorderStyle = BorderStyle.None;
-            textBox1.Cursor = Cursors.IBeam;
-            textBox1.Font = new Font("Segoe UI", 12F);
-            textBox1.ForeColor = SystemColors.ControlDark;
-            textBox1.Location = new Point(461, 183);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(275, 22);
-            textBox1.TabIndex = 3;
+            username.BackColor = SystemColors.Control;
+            username.BorderStyle = BorderStyle.None;
+            username.Cursor = Cursors.IBeam;
+            username.Font = new Font("Segoe UI", 12F);
+            username.ForeColor = SystemColors.ControlDark;
+            username.Location = new Point(461, 183);
+            username.Name = "username";
+            username.Size = new Size(275, 22);
+            username.TabIndex = 3;
             // 
             // label2
             // 
@@ -108,18 +108,18 @@
             label3.TabIndex = 6;
             label3.Text = "Password";
             // 
-            // textBox2
+            // password
             // 
-            textBox2.BackColor = SystemColors.Control;
-            textBox2.BorderStyle = BorderStyle.None;
-            textBox2.Cursor = Cursors.IBeam;
-            textBox2.Font = new Font("Segoe UI", 12F);
-            textBox2.ForeColor = SystemColors.ControlDark;
-            textBox2.Location = new Point(461, 255);
-            textBox2.Name = "textBox2";
-            textBox2.Size = new Size(275, 22);
-            textBox2.TabIndex = 5;
-            textBox2.UseSystemPasswordChar = true;
+            password.BackColor = SystemColors.Control;
+            password.BorderStyle = BorderStyle.None;
+            password.Cursor = Cursors.IBeam;
+            password.Font = new Font("Segoe UI", 12F);
+            password.ForeColor = SystemColors.ControlDark;
+            password.Location = new Point(461, 255);
+            password.Name = "password";
+            password.Size = new Size(275, 22);
+            password.TabIndex = 5;
+            password.UseSystemPasswordChar = true;
             // 
             // panel3
             // 
@@ -137,15 +137,16 @@
             panel4.Size = new Size(275, 1);
             panel4.TabIndex = 8;
             // 
-            // button1
+            // btnlogin
             // 
-            button1.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            button1.Location = new Point(513, 306);
-            button1.Name = "button1";
-            button1.Size = new Size(181, 40);
-            button1.TabIndex = 9;
-            button1.Text = "Log In";
-            button1.UseVisualStyleBackColor = true;
+            btnlogin.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            btnlogin.Location = new Point(513, 306);
+            btnlogin.Name = "btnlogin";
+            btnlogin.Size = new Size(181, 40);
+            btnlogin.TabIndex = 9;
+            btnlogin.Text = "Log In";
+            btnlogin.UseVisualStyleBackColor = true;
+            btnlogin.Click += button1_Click;
             // 
             // label4
             // 
@@ -197,13 +198,13 @@
             Controls.Add(pictureBox2);
             Controls.Add(linkLabel1);
             Controls.Add(label4);
-            Controls.Add(button1);
+            Controls.Add(btnlogin);
             Controls.Add(panel4);
             Controls.Add(panel3);
             Controls.Add(label3);
-            Controls.Add(textBox2);
+            Controls.Add(password);
             Controls.Add(label2);
-            Controls.Add(textBox1);
+            Controls.Add(username);
             Controls.Add(label1);
             Controls.Add(panel2);
             Controls.Add(panel1);
@@ -225,13 +226,13 @@
         private Panel panel1;
         private Panel panel2;
         private Label label1;
-        private TextBox textBox1;
+        private TextBox username;
         private Label label2;
         private Label label3;
-        private TextBox textBox2;
+        private TextBox password;
         private Panel panel3;
         private Panel panel4;
-        private Button button1;
+        private Button btnlogin;
         private Label label4;
         private LinkLabel linkLabel1;
         private PictureBox pictureBox1;
