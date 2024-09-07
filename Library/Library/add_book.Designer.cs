@@ -40,11 +40,23 @@
             label5 = new Label();
             pictureBox6 = new PictureBox();
             panel1 = new Panel();
+            welcomelbl = new Label();
             panel6 = new Panel();
             panel4 = new Panel();
             panel3 = new Panel();
             panel5 = new Panel();
             panel2 = new Panel();
+            groupBox1 = new GroupBox();
+            reset = new Button();
+            txtavailablecopies = new TextBox();
+            Author = new Label();
+            txtauthor = new TextBox();
+            AvailableCopies = new Label();
+            txttitle = new TextBox();
+            Title = new Label();
+            addbook = new Button();
+            txtbookid = new TextBox();
+            BookId = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
@@ -57,6 +69,7 @@
             panel3.SuspendLayout();
             panel5.SuspendLayout();
             panel2.SuspendLayout();
+            groupBox1.SuspendLayout();
             SuspendLayout();
             // 
             // pictureBox2
@@ -70,6 +83,7 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.StretchImage;
             pictureBox2.TabIndex = 14;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // label1
             // 
@@ -165,6 +179,7 @@
             label5.Size = new Size(80, 25);
             label5.TabIndex = 5;
             label5.Text = "Log Out";
+            label5.Click += label5_Click;
             // 
             // pictureBox6
             // 
@@ -179,6 +194,7 @@
             // panel1
             // 
             panel1.BackColor = Color.LightSalmon;
+            panel1.Controls.Add(welcomelbl);
             panel1.Controls.Add(panel6);
             panel1.Controls.Add(panel4);
             panel1.Controls.Add(panel3);
@@ -189,6 +205,19 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1263, 57);
             panel1.TabIndex = 1;
+            // 
+            // welcomelbl
+            // 
+            welcomelbl.AutoSize = true;
+            welcomelbl.BackColor = Color.Transparent;
+            welcomelbl.Font = new Font("Brush Script Std", 30F, FontStyle.Bold);
+            welcomelbl.ForeColor = Color.FromArgb(255, 255, 192);
+            welcomelbl.Location = new Point(857, 7);
+            welcomelbl.Name = "welcomelbl";
+            welcomelbl.Size = new Size(123, 46);
+            welcomelbl.TabIndex = 2;
+            welcomelbl.Text = "label1";
+            welcomelbl.TextAlign = ContentAlignment.MiddleCenter;
             // 
             // panel6
             // 
@@ -236,6 +265,121 @@
             panel2.Size = new Size(170, 55);
             panel2.TabIndex = 1;
             // 
+            // groupBox1
+            // 
+            groupBox1.BackColor = Color.DarkGray;
+            groupBox1.Controls.Add(reset);
+            groupBox1.Controls.Add(txtavailablecopies);
+            groupBox1.Controls.Add(Author);
+            groupBox1.Controls.Add(txtauthor);
+            groupBox1.Controls.Add(AvailableCopies);
+            groupBox1.Controls.Add(txttitle);
+            groupBox1.Controls.Add(Title);
+            groupBox1.Controls.Add(addbook);
+            groupBox1.Controls.Add(txtbookid);
+            groupBox1.Controls.Add(BookId);
+            groupBox1.Font = new Font("Segoe UI", 12F);
+            groupBox1.Location = new Point(287, 190);
+            groupBox1.Margin = new Padding(5);
+            groupBox1.Name = "groupBox1";
+            groupBox1.Padding = new Padding(5);
+            groupBox1.Size = new Size(737, 367);
+            groupBox1.TabIndex = 2;
+            groupBox1.TabStop = false;
+            groupBox1.Text = "Add Book";
+            // 
+            // reset
+            // 
+            reset.Location = new Point(490, 202);
+            reset.Name = "reset";
+            reset.Size = new Size(167, 87);
+            reset.TabIndex = 9;
+            reset.Text = "Reset";
+            reset.UseVisualStyleBackColor = true;
+            reset.Click += reset_Click;
+            // 
+            // txtavailablecopies
+            // 
+            txtavailablecopies.Location = new Point(212, 260);
+            txtavailablecopies.Name = "txtavailablecopies";
+            txtavailablecopies.PlaceholderText = "Number of Copies available";
+            txtavailablecopies.Size = new Size(198, 29);
+            txtavailablecopies.TabIndex = 8;
+            // 
+            // Author
+            // 
+            Author.AutoSize = true;
+            Author.Font = new Font("Segoe UI", 12F);
+            Author.Location = new Point(51, 202);
+            Author.Name = "Author";
+            Author.Size = new Size(58, 21);
+            Author.TabIndex = 7;
+            Author.Text = "Author";
+            // 
+            // txtauthor
+            // 
+            txtauthor.Location = new Point(212, 202);
+            txtauthor.Name = "txtauthor";
+            txtauthor.PlaceholderText = "Enter Author of the Book";
+            txtauthor.Size = new Size(198, 29);
+            txtauthor.TabIndex = 6;
+            // 
+            // AvailableCopies
+            // 
+            AvailableCopies.AutoSize = true;
+            AvailableCopies.Font = new Font("Segoe UI", 12F);
+            AvailableCopies.Location = new Point(51, 260);
+            AvailableCopies.Name = "AvailableCopies";
+            AvailableCopies.Size = new Size(124, 21);
+            AvailableCopies.TabIndex = 5;
+            AvailableCopies.Text = "Available Copies";
+            // 
+            // txttitle
+            // 
+            txttitle.Location = new Point(212, 143);
+            txttitle.Name = "txttitle";
+            txttitle.PlaceholderText = "Enter Title of the Book";
+            txttitle.Size = new Size(198, 29);
+            txttitle.TabIndex = 4;
+            // 
+            // Title
+            // 
+            Title.AutoSize = true;
+            Title.Font = new Font("Segoe UI", 12F);
+            Title.Location = new Point(51, 143);
+            Title.Name = "Title";
+            Title.Size = new Size(39, 21);
+            Title.TabIndex = 3;
+            Title.Text = "Title";
+            // 
+            // addbook
+            // 
+            addbook.Location = new Point(490, 85);
+            addbook.Name = "addbook";
+            addbook.Size = new Size(167, 87);
+            addbook.TabIndex = 2;
+            addbook.Text = "Add Book";
+            addbook.UseVisualStyleBackColor = true;
+            addbook.Click += addbook_Click;
+            // 
+            // txtbookid
+            // 
+            txtbookid.Location = new Point(212, 85);
+            txtbookid.Name = "txtbookid";
+            txtbookid.PlaceholderText = "Enter Book Id";
+            txtbookid.Size = new Size(198, 29);
+            txtbookid.TabIndex = 1;
+            // 
+            // BookId
+            // 
+            BookId.AutoSize = true;
+            BookId.Font = new Font("Segoe UI", 12F);
+            BookId.Location = new Point(51, 85);
+            BookId.Name = "BookId";
+            BookId.Size = new Size(62, 21);
+            BookId.TabIndex = 0;
+            BookId.Text = "Book Id";
+            // 
             // add_book
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -243,11 +387,13 @@
             BackgroundImage = Properties.Resources.ancient_books_adorn_library_carefully_arranged_with_classics_rare_gems;
             BackgroundImageLayout = ImageLayout.Stretch;
             ClientSize = new Size(1264, 681);
+            Controls.Add(groupBox1);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "add_book";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Add Book";
+            Load += add_book_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
@@ -255,6 +401,7 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox5).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
             panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             panel6.ResumeLayout(false);
             panel6.PerformLayout();
             panel4.ResumeLayout(false);
@@ -265,6 +412,8 @@
             panel5.PerformLayout();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            groupBox1.ResumeLayout(false);
+            groupBox1.PerformLayout();
             ResumeLayout(false);
         }
 
@@ -287,5 +436,17 @@
         private Panel panel3;
         private Panel panel5;
         private Panel panel2;
+        private Label welcomelbl;
+        private GroupBox groupBox1;
+        private TextBox txtavailablecopies;
+        private Label Author;
+        private TextBox txtauthor;
+        private Label AvailableCopies;
+        private TextBox txttitle;
+        private Label Title;
+        private Button addbook;
+        private TextBox txtbookid;
+        private Label BookId;
+        private Button reset;
     }
 }

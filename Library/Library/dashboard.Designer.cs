@@ -29,8 +29,9 @@
         private void InitializeComponent()
         {
             panel1 = new Panel();
+            welcomelbl = new Label();
             panel6 = new Panel();
-            label5 = new Label();
+            btnlogout = new Label();
             pictureBox6 = new PictureBox();
             panel4 = new Panel();
             label4 = new Label();
@@ -42,7 +43,7 @@
             label3 = new Label();
             pictureBox4 = new PictureBox();
             panel2 = new Panel();
-            label1 = new Label();
+            btnaddbook = new Label();
             pictureBox1 = new PictureBox();
             pictureBox2 = new PictureBox();
             panel1.SuspendLayout();
@@ -62,6 +63,7 @@
             // panel1
             // 
             panel1.BackColor = Color.LightSalmon;
+            panel1.Controls.Add(welcomelbl);
             panel1.Controls.Add(panel6);
             panel1.Controls.Add(panel4);
             panel1.Controls.Add(panel3);
@@ -73,25 +75,40 @@
             panel1.Size = new Size(1263, 57);
             panel1.TabIndex = 0;
             // 
+            // welcomelbl
+            // 
+            welcomelbl.AutoSize = true;
+            welcomelbl.BackColor = Color.Transparent;
+            welcomelbl.Font = new Font("Brush Script Std", 30F, FontStyle.Bold);
+            welcomelbl.ForeColor = Color.FromArgb(255, 255, 192);
+            welcomelbl.Location = new Point(857, 7);
+            welcomelbl.Name = "welcomelbl";
+            welcomelbl.Size = new Size(123, 46);
+            welcomelbl.TabIndex = 1;
+            welcomelbl.Text = "label1";
+            welcomelbl.TextAlign = ContentAlignment.MiddleCenter;
+            welcomelbl.Click += welcomelbl_Click;
+            // 
             // panel6
             // 
-            panel6.Controls.Add(label5);
+            panel6.Controls.Add(btnlogout);
             panel6.Controls.Add(pictureBox6);
             panel6.Location = new Point(681, 1);
             panel6.Name = "panel6";
             panel6.Size = new Size(170, 55);
             panel6.TabIndex = 5;
             // 
-            // label5
+            // btnlogout
             // 
-            label5.AutoSize = true;
-            label5.Cursor = Cursors.Hand;
-            label5.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            label5.Location = new Point(55, 14);
-            label5.Name = "label5";
-            label5.Size = new Size(80, 25);
-            label5.TabIndex = 5;
-            label5.Text = "Log Out";
+            btnlogout.AutoSize = true;
+            btnlogout.Cursor = Cursors.Hand;
+            btnlogout.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            btnlogout.Location = new Point(55, 14);
+            btnlogout.Name = "btnlogout";
+            btnlogout.Size = new Size(80, 25);
+            btnlogout.TabIndex = 5;
+            btnlogout.Text = "Log Out";
+            btnlogout.Click += btnlogout_Click;
             // 
             // pictureBox6
             // 
@@ -195,23 +212,24 @@
             // 
             // panel2
             // 
-            panel2.Controls.Add(label1);
+            panel2.Controls.Add(btnaddbook);
             panel2.Controls.Add(pictureBox1);
             panel2.Location = new Point(1, 1);
             panel2.Name = "panel2";
             panel2.Size = new Size(170, 55);
             panel2.TabIndex = 1;
             // 
-            // label1
+            // btnaddbook
             // 
-            label1.AutoSize = true;
-            label1.Cursor = Cursors.Hand;
-            label1.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            label1.Location = new Point(55, 14);
-            label1.Name = "label1";
-            label1.Size = new Size(96, 25);
-            label1.TabIndex = 1;
-            label1.Text = "Add Book";
+            btnaddbook.AutoSize = true;
+            btnaddbook.Cursor = Cursors.Hand;
+            btnaddbook.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            btnaddbook.Location = new Point(55, 14);
+            btnaddbook.Name = "btnaddbook";
+            btnaddbook.Size = new Size(96, 25);
+            btnaddbook.TabIndex = 1;
+            btnaddbook.Text = "Add Book";
+            btnaddbook.Click += btnaddbook_Click;
             // 
             // pictureBox1
             // 
@@ -248,7 +266,9 @@
             Name = "dashboard";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "dashboard";
+            Load += dashboard_Load;
             panel1.ResumeLayout(false);
+            panel1.PerformLayout();
             panel6.ResumeLayout(false);
             panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).EndInit();
@@ -282,10 +302,11 @@
         private PictureBox pictureBox3;
         private PictureBox pictureBox4;
         private PictureBox pictureBox1;
-        private Label label5;
+        private Label btnlogout;
         private Label label4;
         private Label label2;
         private Label label3;
-        private Label label1;
+        private Label btnaddbook;
+        private Label welcomelbl;
     }
 }

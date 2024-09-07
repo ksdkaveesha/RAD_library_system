@@ -17,48 +17,46 @@ namespace Library
 
         private void button1_Click(object sender, EventArgs e)
         {
-            SqlConnection con = new SqlConnection();
-            con.ConnectionString = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=F:\\github\\RAD_library_system\\Library\\Library\\library.mdf;Integrated Security=True";
-            SqlCommand cmd = new SqlCommand();
-            cmd.Connection = con;
-
-            con.Open(); //open connection
-
-            cmd.CommandText = "select * from [User] where username='"+username.Text+"' and password='"+password.Text+"'";
-            SqlDataAdapter logincmd = new SqlDataAdapter(cmd);
-            DataSet logindataset = new DataSet();
-            logincmd.Fill(logindataset);
-
-
-            if (logindataset.Tables[0].Rows.Count > 0)
+            using (SqlConnection con = new SqlConnection("Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=F:\\github\\RAD_library_system\\Library\\Library\\library.mdf;Integrated Security=True"))
             {
-                string role = logindataset.Tables[0].Rows[0]["role"].ToString();
+                SqlCommand cmd = new SqlCommand("SELECT role FROM [User] WHERE username = @username AND password = @password", con);
 
-                // Check if the role is 'admin'
-                if (role == "admin")
+                // Use parameters to avoid SQL Injection
+                cmd.Parameters.AddWithValue("@username", username.Text);
+                cmd.Parameters.AddWithValue("@password", password.Text);
+
+                con.Open();
+                SqlDataAdapter logincmd = new SqlDataAdapter(cmd);
+                DataSet logindataset = new DataSet();
+                logincmd.Fill(logindataset);
+
+                // Check if login is successful
+                if (logindataset.Tables[0].Rows.Count > 0)
                 {
-                    MessageBox.Show("Login Successful as Admin");
+                    // Retrieve the role of the user from the dataset
+                    string role = logindataset.Tables[0].Rows[0]["role"].ToString();
 
-                    // Redirect to the dashboard form
-                    dashboard dashboardForm = new dashboard();
-                    dashboardForm.Show();   // Show the dashboard form
-                    this.Hide();  // Hide the login form
+                    if (role == "admin")
+                    {
+                        MessageBox.Show("Login Successful as Admin");
+
+                        dashboard dashboardForm = new dashboard(username.Text);
+                        dashboardForm.Show();
+                        this.Hide();  // Hide the login form
+                    }
+                    else
+                    {
+                        MessageBox.Show("Login Successful as User");
+                        this.Hide();
+                    }
                 }
                 else
                 {
-                    MessageBox.Show("Login Successful as User");
-                    MessageBox.Show("User Section Comming Soon");
-
-                    Form1 form1 = new Form1();
-                    form1.Show(); // Hide the login form
+                    MessageBox.Show("Invalid Username or Password");
                 }
-            }
-            else
-            {
-                MessageBox.Show("Invalid Username or Password");
-            }
 
-            con.Close(); //close connection
+                con.Close();
+            }
         }
     }
 }
