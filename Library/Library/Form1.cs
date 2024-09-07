@@ -32,7 +32,7 @@ namespace Library
 
             if (logindataset.Tables[0].Rows.Count > 0)
             {
-                string role = logindataset.Tables[0].Rows[2]["role"].ToString();
+                string role = logindataset.Tables[0].Rows[0]["role"].ToString();
 
                 // Check if the role is 'admin'
                 if (role == "admin")
@@ -49,7 +49,8 @@ namespace Library
                     MessageBox.Show("Login Successful as User");
                     MessageBox.Show("User Section Comming Soon");
 
-                    this.Hide();  // Hide the login form
+                    Form1 form1 = new Form1();
+                    form1.Show(); // Hide the login form
                 }
             }
             else
