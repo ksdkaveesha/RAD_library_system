@@ -295,7 +295,6 @@
         private Panel panel3;
         private Panel panel4;
         private Panel panel5;
-        private Panel panel2;
         private Panel panel6;
         private PictureBox pictureBox6;
         private PictureBox pictureBox5;
@@ -308,5 +307,6 @@
         private Label label3;
         private Label btnaddbook;
         private Label welcomelbl;
+        public Panel panel2;
     }
 }

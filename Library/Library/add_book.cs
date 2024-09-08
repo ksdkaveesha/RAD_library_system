@@ -14,36 +14,21 @@ namespace Library
 {
     public partial class add_book : Form
     {
-        public add_book()
-        {
-            InitializeComponent();
-        }
-
-        private string loggedInUsername;
         private void add_book_Load(object sender, EventArgs e)
         {
         }
 
-        public add_book(string username)
+        private dashboard dasboard;
+        public add_book(string username, dashboard das)
         {
             InitializeComponent();
-            loggedInUsername = username;
-            ShowUsername();
-        }
-        private void ShowUsername()
-        {
-            // Assuming you have a Label named lblUsername on the dashboard form
-            welcomelbl.Text = "Welcome, " + loggedInUsername + "!";
+            this.dasboard = das;
         }
 
         private void label5_Click(object sender, EventArgs e)
         {
             // Close the current dashboard form
             this.Close();
-
-            // Show the login form again
-            Form1 loginForm = new Form1();
-            loginForm.Show();
         }
 
         private void pictureBox2_Click(object sender, EventArgs e)
@@ -76,8 +61,7 @@ namespace Library
                 con.Open();
 
                 // Check if the book already exists in the 'Books' table
-                SqlCommand checkbook = new SqlCommand("SELECT * FROM Books WHERE bookid = @bookid", con);
-                checkbook.Parameters.AddWithValue("@bookid", bookid);
+                SqlCommand checkbook = new SqlCommand("SELECT * FROM Books WHERE bookid = '"+bookid+"'", con);
 
                 SqlDataAdapter userdata = new SqlDataAdapter(checkbook);
                 DataSet ds = new DataSet();
@@ -91,8 +75,8 @@ namespace Library
                 else
                 {
                     // Add a new book using SQL parameters (safe from SQL injection)
-                    SqlCommand addbook = new SqlCommand("INSERT INTO Books (bookid, title, author, availablecopies) VALUES (@bookid, @title, @author, @availablecopies)", con);
-                    
+                    SqlCommand addbook = new SqlCommand("INSERT INTO Books (bookid, title, author, availablecopies) VALUES ('"+bookid+"', '"+title+"', '"+author+"', '"+availablecopies+"')", con);
+
                     // Execute the insert query
                     addbook.ExecuteNonQuery();
 
@@ -114,6 +98,12 @@ namespace Library
                 // Close the connection
                 con.Close();
             }
+        }
+
+        private void label5_Click_1(object sender, EventArgs e)
+        {
+            dasboard.panel2.BackColor = Color.LightSalmon;
+            Close();  // Close the current form
         }
     }
 }

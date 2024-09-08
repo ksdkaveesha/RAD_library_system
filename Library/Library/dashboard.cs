@@ -67,8 +67,8 @@ namespace Library
 
         private void btnaddbook_Click(object sender, EventArgs e)
         {
-            this.Close();
-            add_book add = new add_book(loggedInUsername);
+            panel2.BackColor = Color.White;
+            add_book add = new add_book(loggedInUsername, this);
             add.Show();
         }
     }
