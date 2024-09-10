@@ -78,5 +78,11 @@ namespace Library
             issue_book add = new issue_book(loggedInUsername, this);
             add.Show();
         }
+
+        private void btnviewbook_Click(object sender, EventArgs e)
+        {
+            panel4.BackColor = Color.White;
+            view_book view = new view_book(this);
+        }
     }
 }

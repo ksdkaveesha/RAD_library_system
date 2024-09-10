@@ -200,6 +200,7 @@
             btnviewbook.Size = new Size(110, 25);
             btnviewbook.TabIndex = 3;
             btnviewbook.Text = "View Books";
+            btnviewbook.Click += btnviewbook_Click;
             // 
             // pictureBox4
             // 
@@ -293,9 +294,7 @@
 
         private Panel panel1;
         private PictureBox pictureBox2;
-        private Panel panel4;
         private Panel panel5;
-        private Panel panel6;
         private PictureBox pictureBox6;
         private PictureBox pictureBox5;
         private PictureBox pictureBox3;
@@ -309,5 +308,7 @@
         private Label welcomelbl;
         public Panel panel2;
         public Panel panel3;
+        public Panel panel4;
+        public Panel panel6;
     }
 }
