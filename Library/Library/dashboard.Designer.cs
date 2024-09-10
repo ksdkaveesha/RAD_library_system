@@ -34,13 +34,13 @@
             btnlogout = new Label();
             pictureBox6 = new PictureBox();
             panel4 = new Panel();
-            label4 = new Label();
+            btnreturnbook = new Label();
             pictureBox5 = new PictureBox();
             panel3 = new Panel();
-            label2 = new Label();
+            btnissuebook = new Label();
             pictureBox3 = new PictureBox();
             panel5 = new Panel();
-            label3 = new Label();
+            btnviewbook = new Label();
             pictureBox4 = new PictureBox();
             panel2 = new Panel();
             btnaddbook = new Label();
@@ -122,23 +122,23 @@
             // 
             // panel4
             // 
-            panel4.Controls.Add(label4);
+            panel4.Controls.Add(btnreturnbook);
             panel4.Controls.Add(pictureBox5);
             panel4.Location = new Point(511, 1);
             panel4.Name = "panel4";
             panel4.Size = new Size(170, 55);
             panel4.TabIndex = 4;
             // 
-            // label4
+            // btnreturnbook
             // 
-            label4.AutoSize = true;
-            label4.Cursor = Cursors.Hand;
-            label4.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            label4.Location = new Point(51, 14);
-            label4.Name = "label4";
-            label4.Size = new Size(119, 25);
-            label4.TabIndex = 4;
-            label4.Text = "Return Book";
+            btnreturnbook.AutoSize = true;
+            btnreturnbook.Cursor = Cursors.Hand;
+            btnreturnbook.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            btnreturnbook.Location = new Point(51, 14);
+            btnreturnbook.Name = "btnreturnbook";
+            btnreturnbook.Size = new Size(119, 25);
+            btnreturnbook.TabIndex = 4;
+            btnreturnbook.Text = "Return Book";
             // 
             // pictureBox5
             // 
@@ -152,23 +152,24 @@
             // 
             // panel3
             // 
-            panel3.Controls.Add(label2);
+            panel3.Controls.Add(btnissuebook);
             panel3.Controls.Add(pictureBox3);
             panel3.Location = new Point(171, 1);
             panel3.Name = "panel3";
             panel3.Size = new Size(170, 55);
             panel3.TabIndex = 2;
             // 
-            // label2
+            // btnissuebook
             // 
-            label2.AutoSize = true;
-            label2.Cursor = Cursors.Hand;
-            label2.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            label2.Location = new Point(55, 14);
-            label2.Name = "label2";
-            label2.Size = new Size(104, 25);
-            label2.TabIndex = 2;
-            label2.Text = "Issue Book";
+            btnissuebook.AutoSize = true;
+            btnissuebook.Cursor = Cursors.Hand;
+            btnissuebook.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            btnissuebook.Location = new Point(55, 14);
+            btnissuebook.Name = "btnissuebook";
+            btnissuebook.Size = new Size(104, 25);
+            btnissuebook.TabIndex = 2;
+            btnissuebook.Text = "Issue Book";
+            btnissuebook.Click += btnissuebook_Click;
             // 
             // pictureBox3
             // 
@@ -182,23 +183,23 @@
             // 
             // panel5
             // 
-            panel5.Controls.Add(label3);
+            panel5.Controls.Add(btnviewbook);
             panel5.Controls.Add(pictureBox4);
             panel5.Location = new Point(341, 1);
             panel5.Name = "panel5";
             panel5.Size = new Size(170, 55);
             panel5.TabIndex = 3;
             // 
-            // label3
+            // btnviewbook
             // 
-            label3.AutoSize = true;
-            label3.Cursor = Cursors.Hand;
-            label3.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
-            label3.Location = new Point(55, 14);
-            label3.Name = "label3";
-            label3.Size = new Size(110, 25);
-            label3.TabIndex = 3;
-            label3.Text = "View Books";
+            btnviewbook.AutoSize = true;
+            btnviewbook.Cursor = Cursors.Hand;
+            btnviewbook.Font = new Font("Segoe UI", 13F, FontStyle.Bold);
+            btnviewbook.Location = new Point(55, 14);
+            btnviewbook.Name = "btnviewbook";
+            btnviewbook.Size = new Size(110, 25);
+            btnviewbook.TabIndex = 3;
+            btnviewbook.Text = "View Books";
             // 
             // pictureBox4
             // 
@@ -292,7 +293,6 @@
 
         private Panel panel1;
         private PictureBox pictureBox2;
-        private Panel panel3;
         private Panel panel4;
         private Panel panel5;
         private Panel panel6;
@@ -302,11 +302,12 @@
         private PictureBox pictureBox4;
         private PictureBox pictureBox1;
         private Label btnlogout;
-        private Label label4;
-        private Label label2;
-        private Label label3;
+        private Label btnreturnbook;
+        private Label btnissuebook;
+        private Label btnviewbook;
         private Label btnaddbook;
         private Label welcomelbl;
         public Panel panel2;
+        public Panel panel3;
     }
 }

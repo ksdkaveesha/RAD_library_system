@@ -178,7 +178,7 @@
             // 
             label1.AutoSize = true;
             label1.Font = new Font("Script MT Bold", 30F, FontStyle.Bold);
-            label1.Location = new Point(98, 15);
+            label1.Location = new Point(81, 21);
             label1.Name = "label1";
             label1.Size = new Size(223, 48);
             label1.TabIndex = 17;
@@ -188,7 +188,7 @@
             // 
             pictureBox1.BackColor = SystemColors.ActiveBorder;
             pictureBox1.Image = Properties.Resources.icons8_book;
-            pictureBox1.Location = new Point(30, 11);
+            pictureBox1.Location = new Point(12, 15);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(62, 58);
             pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
