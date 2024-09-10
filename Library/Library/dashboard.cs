@@ -81,8 +81,9 @@ namespace Library
 
         private void btnviewbook_Click(object sender, EventArgs e)
         {
-            panel4.BackColor = Color.White;
+            panel5.BackColor = Color.White;
             view_book view = new view_book(this);
+            view.Show();
         }
     }
 }

@@ -294,7 +294,6 @@
 
         private Panel panel1;
         private PictureBox pictureBox2;
-        private Panel panel5;
         private PictureBox pictureBox6;
         private PictureBox pictureBox5;
         private PictureBox pictureBox3;
@@ -310,5 +309,6 @@
         public Panel panel3;
         public Panel panel4;
         public Panel panel6;
+        public Panel panel5;
     }
 }
