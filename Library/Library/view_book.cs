@@ -58,7 +58,7 @@ namespace Library
         }
 
         private void button5_Click(object sender, EventArgs e)
-        {
+        { //search
             if (string.IsNullOrEmpty(txtsearch.Text))
             {
                 MessageBox.Show("Please enter a book title to search.");

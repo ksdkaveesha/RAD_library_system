@@ -7,24 +7,24 @@
       "RelativeMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|solutionrelative:library\\issue_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|F:\\github\\RAD_library_system\\Library\\library\\issue_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|solutionrelative:library\\issue_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|f:\\github\\rad_library_system\\library\\library\\return_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|solutionrelative:library\\return_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|F:\\github\\RAD_library_system\\Library\\library\\return_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|solutionrelative:library\\return_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|f:\\github\\rad_library_system\\library\\library\\view_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|solutionrelative:library\\view_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|f:\\github\\rad_library_system\\library\\library\\return_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|solutionrelative:library\\return_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|f:\\github\\rad_library_system\\library\\library\\return_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|solutionrelative:library\\return_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|f:\\github\\rad_library_system\\library\\library\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|solutionrelative:library\\dashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|F:\\github\\RAD_library_system\\Library\\library\\issue_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|solutionrelative:library\\issue_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{46FEE5C5-F243-4BD7-8876-BD95BE8F914A}|Library\\Library.csproj|F:\\github\\RAD_library_system\\Library\\library\\add_book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -58,7 +58,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
@@ -71,24 +71,25 @@
               "ViewState": "AgIAAAIAAAAAAAAAAAAxwA0AAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-04T14:54:57.62Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "return_book.cs",
               "DocumentMoniker": "F:\\github\\RAD_library_system\\Library\\Library\\return_book.cs",
               "RelativeDocumentMoniker": "Library\\return_book.cs",
               "ToolTip": "F:\\github\\RAD_library_system\\Library\\Library\\return_book.cs",
               "RelativeToolTip": "Library\\return_book.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAAGsAAAAAAAAAAAAAwH4AAABJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-11T04:53:08.452Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "return_book.cs [Design]",
               "DocumentMoniker": "F:\\github\\RAD_library_system\\Library\\Library\\return_book.cs",
               "RelativeDocumentMoniker": "Library\\return_book.cs",
@@ -100,41 +101,29 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "dashboard.cs",
               "DocumentMoniker": "F:\\github\\RAD_library_system\\Library\\Library\\dashboard.cs",
               "RelativeDocumentMoniker": "Library\\dashboard.cs",
               "ToolTip": "F:\\github\\RAD_library_system\\Library\\Library\\dashboard.cs",
               "RelativeToolTip": "Library\\dashboard.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFsAAAA0AAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAA1wFsAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-07T16:28:37.22Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "view_book.cs",
               "DocumentMoniker": "F:\\github\\RAD_library_system\\Library\\Library\\view_book.cs",
               "RelativeDocumentMoniker": "Library\\view_book.cs",
               "ToolTip": "F:\\github\\RAD_library_system\\Library\\Library\\view_book.cs",
               "RelativeToolTip": "Library\\view_book.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAQwBwAAABjAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwFsAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T15:08:25.802Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "issue_book.cs [Design]",
-              "DocumentMoniker": "F:\\github\\RAD_library_system\\Library\\Library\\issue_book.cs",
-              "RelativeDocumentMoniker": "Library\\issue_book.cs",
-              "ToolTip": "F:\\github\\RAD_library_system\\Library\\Library\\issue_book.cs [Design]",
-              "RelativeToolTip": "Library\\issue_book.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-10T10:04:34.903Z",
-              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -144,10 +133,22 @@
               "RelativeDocumentMoniker": "Library\\issue_book.cs",
               "ToolTip": "F:\\github\\RAD_library_system\\Library\\Library\\issue_book.cs",
               "RelativeToolTip": "Library\\issue_book.cs",
-              "ViewState": "AgIAADMAAAAAAAAAAAAWwEMAAABKAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAAtwDQAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-10T10:04:39.37Z",
               "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "issue_book.cs [Design]",
+              "DocumentMoniker": "F:\\github\\RAD_library_system\\Library\\Library\\issue_book.cs",
+              "RelativeDocumentMoniker": "Library\\issue_book.cs",
+              "ToolTip": "F:\\github\\RAD_library_system\\Library\\Library\\issue_book.cs [Design]",
+              "RelativeToolTip": "Library\\issue_book.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-10T10:04:34.903Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
@@ -207,7 +208,8 @@
               "ToolTip": "F:\\github\\RAD_library_system\\Library\\Library\\Form1.cs [Design]",
               "RelativeToolTip": "Library\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-08T07:23:19.455Z"
+              "WhenOpened": "2024-09-08T07:23:19.455Z",
+              "EditorCaption": " [Design]"
             }
           ]
         }

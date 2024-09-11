@@ -113,7 +113,7 @@ namespace Library
 
                     // Format the dates to MM/DD/YYYY format
                     string issueDateString = issueDate.ToString("MM/dd/yyyy");
-                    string returnDateString = returnDate.ToString("MM/dd/yyyy");
+                    string returnDateString = "Ongoing";
 
                     string dueDateString = returnDateString;  // Due date is same as return date for now
 
