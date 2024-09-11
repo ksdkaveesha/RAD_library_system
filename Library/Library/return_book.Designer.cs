@@ -28,22 +28,71 @@
         /// </summary>
         private void InitializeComponent()
         {
+            pictureBox1 = new PictureBox();
+            label1 = new Label();
+            close = new PictureBox();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)close).BeginInit();
             SuspendLayout();
+            // 
+            // pictureBox1
+            // 
+            pictureBox1.BackColor = SystemColors.ActiveBorder;
+            pictureBox1.Image = Properties.Resources.icons8_book;
+            pictureBox1.Location = new Point(12, 15);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(62, 58);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 21;
+            pictureBox1.TabStop = false;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Script MT Bold", 30F, FontStyle.Bold);
+            label1.Location = new Point(81, 21);
+            label1.Name = "label1";
+            label1.Size = new Size(223, 48);
+            label1.TabIndex = 20;
+            label1.Text = "Book Haven";
+            // 
+            // close
+            // 
+            close.BackgroundImageLayout = ImageLayout.Center;
+            close.Cursor = Cursors.Hand;
+            close.Image = Properties.Resources.cross_14875490;
+            close.Location = new Point(750, 12);
+            close.Name = "close";
+            close.Size = new Size(38, 41);
+            close.SizeMode = PictureBoxSizeMode.StretchImage;
+            close.TabIndex = 19;
+            close.TabStop = false;
+            close.Click += close_Click;
             // 
             // return_book
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackgroundImage = Properties.Resources.ancient_books_adorn_library_carefully_arranged_with_classics_rare_gems;
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(1280, 720);
+            ClientSize = new Size(800, 450);
+            Controls.Add(pictureBox1);
+            Controls.Add(label1);
+            Controls.Add(close);
             FormBorderStyle = FormBorderStyle.None;
             Name = "return_book";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Return Book";
+            Load += return_book_Load;
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ((System.ComponentModel.ISupportInitialize)close).EndInit();
             ResumeLayout(false);
+            PerformLayout();
         }
 
         #endregion
+
+        private PictureBox pictureBox1;
+        private Label label1;
+        private PictureBox close;
     }
 }

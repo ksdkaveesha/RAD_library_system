@@ -139,6 +139,7 @@
             btnreturnbook.Size = new Size(119, 25);
             btnreturnbook.TabIndex = 4;
             btnreturnbook.Text = "Return Book";
+            btnreturnbook.Click += btnreturnbook_Click;
             // 
             // pictureBox5
             // 

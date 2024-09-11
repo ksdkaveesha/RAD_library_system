@@ -85,5 +85,12 @@ namespace Library
             view_book view = new view_book(this);
             view.Show();
         }
+
+        private void btnreturnbook_Click(object sender, EventArgs e)
+        {
+            panel4.BackColor = Color.White;
+            return_book ret = new return_book(this);
+            ret.Show();
+        }
     }
 }
